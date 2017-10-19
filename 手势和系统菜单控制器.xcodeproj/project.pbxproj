@@ -16,6 +16,7 @@
 		9C5CAA971F984970008E803A /* __________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5CAA961F984970008E803A /* __________Tests.m */; };
 		9C5CAAA21F984970008E803A /* __________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5CAAA11F984970008E803A /* __________UITests.m */; };
 		9C5CAAB11F984B62008E803A /* ShowTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5CAAB01F984B62008E803A /* ShowTextView.m */; };
+		9C5CAAB41F988951008E803A /* UIButton+AddBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5CAAB31F988951008E803A /* UIButton+AddBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		9C5CAAA31F984970008E803A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C5CAAAF1F984B62008E803A /* ShowTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowTextView.h; sourceTree = "<group>"; };
 		9C5CAAB01F984B62008E803A /* ShowTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowTextView.m; sourceTree = "<group>"; };
+		9C5CAAB21F988951008E803A /* UIButton+AddBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+AddBlock.h"; sourceTree = "<group>"; };
+		9C5CAAB31F988951008E803A /* UIButton+AddBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AddBlock.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				9C5CAA811F984970008E803A /* ViewController.m */,
 				9C5CAAAF1F984B62008E803A /* ShowTextView.h */,
 				9C5CAAB01F984B62008E803A /* ShowTextView.m */,
+				9C5CAAB21F988951008E803A /* UIButton+AddBlock.h */,
+				9C5CAAB31F988951008E803A /* UIButton+AddBlock.m */,
 				9C5CAA831F984970008E803A /* Main.storyboard */,
 				9C5CAA861F984970008E803A /* Assets.xcassets */,
 				9C5CAA881F984970008E803A /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				9C5CAA821F984970008E803A /* ViewController.m in Sources */,
 				9C5CAA8D1F984970008E803A /* main.m in Sources */,
 				9C5CAAB11F984B62008E803A /* ShowTextView.m in Sources */,
+				9C5CAAB41F988951008E803A /* UIButton+AddBlock.m in Sources */,
 				9C5CAA7F1F984970008E803A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,6 +10,7 @@
 #import "ShowTextView.h"
 #define kScreenWidth ([UIScreen mainScreen].bounds.size.width)
 #define kScreenHeight ([UIScreen mainScreen].bounds.size.height)
+#import "UIButton+AddBlock.h"
 @interface ViewController ()
 
 @property(nonatomic,strong)ShowTextView *textView;
@@ -30,6 +31,14 @@
     _textView.text = @"我来测试啦";
     [self.view addSubview:_textView];
     [self addGes:_textView];
+    
+    UIButton *button = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+    button.backgroundColor = [UIColor redColor];
+    [self.view addSubview:button];
+    [button AddZDAction:^{
+         NSLog(@"点击");
+    } forControlEvents:UIControlEventTouchUpInside];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
